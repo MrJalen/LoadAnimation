@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "STCircleView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    STCircleView *circleView = [[STCircleView alloc]init];
+    circleView.frame = CGRectMake(30, 150, self.view.bounds.size.width-60, self.view.bounds.size.width-60);
+    circleView.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:circleView];
 }
 
 

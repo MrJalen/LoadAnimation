@@ -15,6 +15,7 @@
 		7031B12A1FE108A6001F83DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7031B1291FE108A6001F83DA /* main.m */; };
 		7031B1341FE108A6001F83DA /* STLoadAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7031B1331FE108A6001F83DA /* STLoadAnimationTests.m */; };
 		7031B13F1FE108A7001F83DA /* STLoadAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7031B13E1FE108A7001F83DA /* STLoadAnimationUITests.m */; };
+		7031B14E1FE108D6001F83DA /* STCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7031B14D1FE108D6001F83DA /* STCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7031B13A1FE108A7001F83DA /* STLoadAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STLoadAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7031B13E1FE108A7001F83DA /* STLoadAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STLoadAnimationUITests.m; sourceTree = "<group>"; };
 		7031B1401FE108A7001F83DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7031B14C1FE108D6001F83DA /* STCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCircleView.h; sourceTree = "<group>"; };
+		7031B14D1FE108D6001F83DA /* STCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				7031B11B1FE108A6001F83DA /* AppDelegate.m */,
 				7031B11D1FE108A6001F83DA /* ViewController.h */,
 				7031B11E1FE108A6001F83DA /* ViewController.m */,
+				7031B14C1FE108D6001F83DA /* STCircleView.h */,
+				7031B14D1FE108D6001F83DA /* STCircleView.m */,
 				7031B1201FE108A6001F83DA /* Main.storyboard */,
 				7031B1231FE108A6001F83DA /* Assets.xcassets */,
 				7031B1251FE108A6001F83DA /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7031B11F1FE108A6001F83DA /* ViewController.m in Sources */,
+				7031B14E1FE108D6001F83DA /* STCircleView.m in Sources */,
 				7031B12A1FE108A6001F83DA /* main.m in Sources */,
 				7031B11C1FE108A6001F83DA /* AppDelegate.m in Sources */,
 			);
@@ -370,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -419,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
